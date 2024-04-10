@@ -1,5 +1,6 @@
 # 
 # Copyright (C) 2008-2011 OpenWrt.org
+# Copyright (C) 2024 Tommy Lau <https://tommy.net.cn/>
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -7,13 +8,13 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=stund
-PKG_VERSION:=0.96
-PKG_RELEASE:=6
+KG_NAME:=stund
+PKG_VERSION:=0.97
+PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)_$(PKG_VERSION)_Aug13.tgz
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tgz
 PKG_SOURCE_URL:=@SF/stun
-PKG_MD5SUM:=3273abb1a6f299f4e611b658304faefa
+PKG_MD5SUM:=097fd27829e357c005afcafd51564bd1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
