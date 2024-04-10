@@ -8,7 +8,7 @@
 
 include $(TOPDIR)/rules.mk
 
-KG_NAME:=stund
+PKG_NAME:=stund
 PKG_VERSION:=0.97
 PKG_RELEASE:=1
 
