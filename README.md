@@ -28,11 +28,13 @@ stun-client {server IP} -v
 ## Result
 
 ```
-when you get 
+Open = Open Internet
 Independent Mapping, Independent Filter = Fullcone NAT
 Independent Mapping, Address Dependent Filter = Restricted Cone NAT
 Independent Mapping, Port Dependent Filter = Port-Restricted Cone NAT
 Dependent Mapping = Symmetric NAT
+Firewall = Symmetric Firewall
+Blocked or could not reach STUN server = UDP Blocked
 ```
 
 ## Test
